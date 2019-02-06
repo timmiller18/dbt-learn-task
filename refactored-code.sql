@@ -1,4 +1,4 @@
-with orders as
+with orders as --test comment
 (
   SELECT *
   FROM {{ref('stg_orders')}}
